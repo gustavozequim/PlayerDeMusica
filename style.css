@@ -1,3 +1,80 @@
 body {
-    background-color: rgb(29, 40, 42);
+    background-image: linear-gradient(
+        rgb(59, 88, 93),
+        rgb(29, 40, 42)
+    );
+    height: 100vh;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#infos-musica-like {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3em 0 1em 0;
+}
+
+#container-botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botao {
+    font-size: 1.7em;
+}
+
+.botao-navegacao {
+    font-size: 3em;
+}
+
+#botao-play {
+    font-size: 3.5em;
+}
+
+button {
+    background-color: none;
+}
+
+#foto-album {
+    width: 450px;
+    height: 450px;
+}
+
+#nome-album {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+#nome-musica {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.cor-clara {
+    color: rgb(139, 153, 156);
+}
+
+#barra-progresso {
+    background-color: rgb(139, 153, 156);
+    height: 3px;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 1em;
+}
+
+#progresso-atual {
+    background-color: white;
+    height: inherit;
+    width: 50%;
+    border-radius: inherit;
 }
