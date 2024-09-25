@@ -26,6 +26,12 @@ body {
     align-items: center;
 }
 
+button {
+    background-color: inherit;
+    border: none;
+    color: inherit;
+}
+
 .botao {
     font-size: 1.7em;
 }
