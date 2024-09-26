@@ -34,21 +34,18 @@ button {
 
 .botao {
     font-size: 1.7em;
+    cursor: pointer;
 }
 
 .botao-navegacao {
     font-size: 3em;
 }
 
-#botao-play {
+.botao-maior {
     font-size: 3.5em;
 }
 
-button {
-    background-color: none;
-}
-
-#foto-album {
+#capa-album {
     width: 450px;
     height: 350px;
 }
@@ -70,17 +67,35 @@ button {
     color: rgb(139, 153, 156);
 }
 
+#progresso-container {
+    padding-top: 1em;
+    cursor: pointer;
+}
+
 #barra-progresso {
     background-color: rgb(139, 153, 156);
     height: 3px;
     width: 100%;
     border-radius: 15px;
-    margin-bottom: 1em;
 }
 
 #progresso-atual {
+    --progresso: 0%;
     background-color: white;
     height: inherit;
-    width: 50%;
+    width: var(--progresso);
     border-radius: inherit;
+}
+
+.botao-ativado {
+    color: rgb(167, 23, 4);
+}
+
+#tempo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: smaller;
+    margin-top: 0.3em;
 }
