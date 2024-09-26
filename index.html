@@ -10,7 +10,8 @@
 <body>
     <div id="container-musica">
         <h4 id="nome-album">Extra/Ordinário</h4>
-        <img id="foto-album" src="/images/simbolo_banda.png"><img>
+        <img id="capa-album" alt="CapaAlbum"><img>
+        <audio id="musica"></audio> 
         <div id="infos-musica-like">
             <div id="infos-musica">
                 <div id="nome-musica">Nome da Musica</div>
@@ -18,13 +19,19 @@
             </div>
             <button id="botao-like" class="botao cor-clara"><i class="bi bi-heart"></i></button>
         </div>
-        <div id="barra-progresso">
-            <div id="progresso-atual"></div>
+        <div id="progresso-container">
+            <div id="barra-progresso">
+                <div id="progresso-atual"></div>
+            </div>
+            <div id="tempo-container">
+                <div id="tempo-atual">00:00</div>
+                <div id="tempo-total">00:00</div>
+            </div>
         </div>
         <div id="container-botoes">
             <button id="botao-embaralhar" class="botao"><i class="bi bi-shuffle"></i></button>
             <button id="botao-voltar" class="botao botao-navegacao"><i class="bi bi-skip-start-fill"></i></button>
-            <button id="botao-play" class="botao"><i class="bi bi-play-circle-fill"></i></button>
+            <button id="botao-play" class="botao botao-maior"><i class="bi bi-play-circle-fill"></i></button>
             <button id="botao-avancar" class="botao botao-navegacao"><i class="bi bi-skip-end-fill"></i></button>
             <button id="botao-repetir" class="botao"><i class="bi bi-repeat"></i></button>
         </div>
