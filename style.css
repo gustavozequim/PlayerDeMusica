@@ -3,7 +3,7 @@ body {
         rgb(136, 61, 61),
         rgb(58, 15, 15)
     );
-    height: 100vh;
+    height: 120vh;
     color: white;
     font-family: sans-serif;
     display: flex;
@@ -16,7 +16,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 3em 0 1em 0;
+    margin: 3rem 0 1rem 0;
 }
 
 #container-musica {
@@ -41,21 +41,21 @@ button i:hover {
 }
 
 .botao {
-    font-size: 1.7em;
+    font-size: 1.7rem;
     cursor: pointer;
 }
 
 .botao-navegacao {
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 .botao-maior {
-    font-size: 3.5em;
+    font-size: 3.5rem;
 }
 
 #capa-album {
-    width: 400px;
-    height: 350px;
+    width: 25rem;
+    height: 25rem;
 }
 
 #nome-album {
@@ -63,11 +63,11 @@ button i:hover {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 4em;
+    margin-bottom: 4rem;
 }
 
 #nome-musica {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -76,7 +76,7 @@ button i:hover {
 }
 
 #progresso-container {
-    padding-top: 1em;
+    padding-top: 1rem;
     cursor: pointer;
 }
 
@@ -105,5 +105,5 @@ button i:hover {
     justify-content: space-between;
     align-items: center;
     font-size: smaller;
-    margin-top: 0.3em;
+    margin-top: 0.3rem;
 }
