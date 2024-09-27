@@ -1,7 +1,7 @@
 body {
     background-image: linear-gradient(
-        rgb(59, 88, 93),
-        rgb(29, 40, 42)
+        rgb(136, 61, 61),
+        rgb(58, 15, 15)
     );
     height: 100vh;
     color: white;
@@ -19,6 +19,10 @@ body {
     margin: 3em 0 1em 0;
 }
 
+#container-musica {
+    max-height: fit-content;
+}
+
 #container-botoes {
     display: flex;
     flex-direction: row;
@@ -30,6 +34,10 @@ button {
     background-color: inherit;
     border: none;
     color: inherit;
+}
+
+button i:hover {
+    color: rgb(167, 68, 68);
 }
 
 .botao {
@@ -46,7 +54,7 @@ button {
 }
 
 #capa-album {
-    width: 450px;
+    width: 400px;
     height: 350px;
 }
 
@@ -81,7 +89,7 @@ button {
 
 #progresso-atual {
     --progresso: 0%;
-    background-color: white;
+    background-color: rgb(212, 71, 71);
     height: inherit;
     width: var(--progresso);
     border-radius: inherit;

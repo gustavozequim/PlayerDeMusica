@@ -1,3 +1,5 @@
+import {originalAlbum} from "./songs.js"
+
 const nomeMusica = document.getElementById("nome-musica");
 const nomeBanda = document.getElementById("nome-banda");
 const capaAlbum = document.getElementById("capa-album");
@@ -14,31 +16,9 @@ const tempoTotal = document.getElementById("tempo-total");
 const tempoAtual = document.getElementById("tempo-atual");
 
 
-const doceLuar = {
-    nomeMusica: 'Doce Luar',
-    nomeBanda: 'Idolos de Vidro',
-    capa: 'capa',
-    musica: 'doce_luar',
-    liked: false
-};
-const naoDaPraContinuar = {
-    nomeMusica: 'Não Dá Pra Continuar',
-    nomeBanda: 'Idolos de Vidro',
-    capa: 'capa',
-    musica: 'nao_da_pra_continuar',
-    liked: false
-};
-const osCorvosEOEspantalho = {
-    nomeMusica: 'Os Corvos E O Espantalho',
-    nomeBanda: 'Idolos de Vidro',
-    capa: 'capa',
-    musica: 'os_corvos',
-    liked: false
-};
 let tocando = false;
 let embaralhado = false;
 let repetindo = false;
-const originalAlbum = [doceLuar, naoDaPraContinuar, osCorvosEOEspantalho];
 let albumEmbaralhado = [...originalAlbum];
 let index = 0;
 
